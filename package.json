@@ -1,23 +1,25 @@
 {
-  "name": "package-project",
-  "version": "1.0.0",
-  "private": true,
-  "description": "package-project",
-  "author": "jdarce98",
-  "keywords": [
-    "gatsby"
-  ],
+  "name": "devcamp-js-footer",
+  "version": "0.1.0",
+  "description": "this module allows for a dynamic footer to be generated for JS applications with an updated year and name.",
+  "main": "index.js",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdarce98/jdarce98-js.git"
+  },
+  "keywords": [
+    "footer"
+  ],
+  "author": "Joshua Arce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdarce98/jdarce98-js/issues"
+  },
+  "homepage": "https://github.com/jdarce98/jdarce98-js#readme",
   "dependencies": {
-    "gatsby": "^5.7.0",
-    "moment": "^2.29.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "moment": "^2.29.4"
   }
 }
